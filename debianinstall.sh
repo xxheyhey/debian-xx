@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
+sudo apt install gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
 
 pipx install cmake
 
@@ -45,6 +45,10 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-o
 sudo apt update
 sudo apt install --no-install-recommends --no-install-suggests onedrive -y
 
+cd ~/suckless/dmenu/ && sudo make clean install
+cd ~/suckless/dwm/ && sudo make clean install
+cd ~/suckless/slstatus/ && sudo make clean install
+cd ~/suckless/st/ && sudo make clean install
 
 sudo apt autoremove -y
 sudo apt clean
@@ -61,3 +65,5 @@ sudo apt autoclean -y
 # bluetooth setup (blueman-manager)
 # IF NECESSARY: pair bluetooth keys between windows and linux
 # bluetooth system tray
+#!/bin/bash
+
