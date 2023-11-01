@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Backup my compressed Linux home directory to the Onedrive (excluding the made tar from being compressed again)
+tar --exclude='linuxbackup.tar.gz' -cvpzf ~/OneDrive/Backup/linuxbackup.tar.gz /home/vic
+
+# push file to onedrive
+onedrive --synchronize --upload-only --no-remote-delete

@@ -1,0 +1,5 @@
+NBFC-linux or fancontrol downloaden (check arch wiki voor fan control linux)
+onedrive (sudo rm -rf /etc/systemd/user/default.target.wants/onedrive.service)
+export GDK_DPI_SCALE=1.5 in .profile (OF GDK_DPI_SCALE=1.25 en Xft.dpi 1.2)
+dolphin verwijderen
+thunar

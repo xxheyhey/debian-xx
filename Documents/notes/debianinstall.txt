@@ -1,0 +1,13 @@
+expert install
+
+nvidia drivers https://wiki.debian.org/NvidiaGraphicsDrivers
+initsetup
+ubuntu font (fonts-ubuntu)
+xorg
+alsa
+dwm (use my own files)
+thorium
+feh
+picom
+nm-applet
+onedrive sync
