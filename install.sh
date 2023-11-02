@@ -84,7 +84,7 @@ cd ~/suckless/st/ && make clean install
 
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
 cd auto-cpufreq &&  ./auto-cpufreq-installer
-cd ... && rm -rf auto-cpufreq
+cd .. && rm -rf auto-cpufreq
 auto-cpufreq --install
 
 apt autoremove -y
