@@ -18,10 +18,10 @@ During the installation you will be prompted to install [auto-cpufreq](https://g
 Reboot after the installation is complete.
 
 ### Manually do after (this is for myself):
-Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
-Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
-Install [iqtree2](https://github.com/iqtree/iqtree2/blob/master/README.md)
-Copy my files (documents, pictures, etc.)
-Install LSP's through :Mason in Neovim
-Check [auto-cpufreq troubleshooting if experiencing problems with it](https://github.com/AdnanHodzic/auto-cpufreq#troubleshooting)
-Check if there's a newer version of [R](https://cloud.r-project.org/src/base/R-4/) (currently installing R-4.3.2)
+Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping).
+Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/).
+Install [iqtree2](https://github.com/iqtree/iqtree2/blob/master/README.md).
+Copy my files (documents, pictures, etc.).
+Install LSP's through :Mason in Neovim.
+Check [auto-cpufreq troubleshooting if experiencing problems with it](https://github.com/AdnanHodzic/auto-cpufreq#troubleshooting).
+Check if there's a newer version of [R](https://cloud.r-project.org/src/base/R-4/) (currently installing R-4.3.2).
