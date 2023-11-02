@@ -1,7 +1,28 @@
 #!/bin/bash
 
+echo What is your name? \(With capital first letter\)
+read name
+echo What is your email?
+read email
+echo What is your preferred editor? \(nano, nvim, vim, etc.\)
+read editor
+
+cat <<EOT >> ~/.gitconfig
+[user]
+	name = $name
+	email = $email
+[core]
+	editor = $editor
+[pull]
+	rebase = false
+EOT
+
+
 sudo apt update
 sudo apt upgrade -y
+apt-get dist-upgrade -y
+apt-get autoremove -y
+apt-get autoclean -y
 
 sudo apt install gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
 
