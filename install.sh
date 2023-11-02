@@ -7,7 +7,7 @@ read email
 echo What is your preferred editor? \(nano, nvim, vim, etc.\)
 read editor
 
-cat <<EOT >> ~/.gitconfig
+cat <<EOT >> .gitconfig
 [user]
 	name = $name
 	email = $email
@@ -16,6 +16,7 @@ cat <<EOT >> ~/.gitconfig
 [pull]
 	rebase = false
 EOT
+mv .gitconfig ~
 
 cp .bashrc ~/.bashrc
 cp .profile ~/.profile
