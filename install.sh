@@ -17,8 +17,8 @@ cat <<EOT >> ~/.gitconfig
 	rebase = false
 EOT
 
-cp .bashrc ~
-cp .profile ~
+cp .bashrc ~/.bashrc
+cp .profile ~/.profile
 cp .tmux* ~
 cp .x* ~
 cp .fehbg ~
