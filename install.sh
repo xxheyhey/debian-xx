@@ -19,7 +19,7 @@ cat <<EOT >> .gitconfig
 [pull]
 	rebase = false
 EOT
-mv .gitconfig ~
+mv .gitconfig /home/$username/
 
 cp .bashrc /home/$username/.bashrc
 cp .profile /home/$username/.profile
