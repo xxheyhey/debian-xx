@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo .gitconfig setup:
 echo What is your name? \(With capital first letter\)
 read name
 echo What is your email?
