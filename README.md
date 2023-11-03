@@ -1,11 +1,10 @@
 # debian-xx
-### WARNING: .xinitrc IS ONLY MADE FOR A VIRTUAL MACHINE ON MY PC
-Make changes to the xrandr lines for your own system see [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
-
 ### This is made only for Debian 12 Bookworm
 This is my debian installation setup.
 
 Look at install.sh to see what's going to be installed on your system.
+
+Make changes to the xrandr lines for your own system see [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
 
 ### To install:
 ```
