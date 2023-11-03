@@ -21,6 +21,8 @@ cat <<EOT >> .gitconfig
 EOT
 mv .gitconfig /home/$username/
 
+mv auto-cpufreq.conf /etc/
+
 cp .bashrc /home/$username/.bashrc
 cp .profile /home/$username/.profile
 cp .tmux* /home/$username/
@@ -39,7 +41,7 @@ apt dist-upgrade -y
 apt autoremove -y
 apt autoclean -y
 
-apt install liblzma-dev rofi evince papirus-icon-theme xorg-dev gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
+apt install thermald liblzma-dev rofi evince papirus-icon-theme xorg-dev gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
 
 pipx install cmake
 
