@@ -80,10 +80,10 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-o
 apt update
 apt install --no-install-recommends --no-install-suggests onedrive -y
 
-cd ~/suckless/dmenu/ && make clean install
-cd ~/suckless/dwm/ && make clean install
-cd ~/suckless/slstatus/ && make clean install
-cd ~/suckless/st/ && make clean install
+cd /home/$username/suckless/dmenu/ && make clean install
+cd /home/$username/suckless/dwm/ && make clean install
+cd /home/$username/suckless/slstatus/ && make clean install
+cd /home/$username/suckless/st/ && make clean install
 
 
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
