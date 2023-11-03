@@ -31,6 +31,7 @@ cp -R Pictures/ /home/$username/
 cp -R .config/ /home/$username/
 cp -R .local/ /home/$username/
 
+ln -s $(which fdfind) /home/$username/.local/bin/fd
 
 apt update
 apt upgrade -y
