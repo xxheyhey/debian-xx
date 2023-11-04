@@ -19,9 +19,6 @@ cat <<EOT >> .gitconfig
 EOT
 mv .gitconfig /home/$username/
 
-mkdir /lib/x86_64-linux-gnu/ntfs-3g
-
-cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 cp auto-cpufreq.conf /etc/
 cp .bashrc /home/$username/.bashrc
 cp .profile /home/$username/.profile
@@ -39,6 +36,11 @@ mkdir /home/$username/personal
 mkdir /home/$username/Desktop
 mkdir /home/$username/Downloads
 mkdir /home/$username/Github
+mkdir -p /home/$username/mounts/windows
+mkdir /home/$username/mounts/wsl
+
+mkdir /lib/x86_64-linux-gnu/ntfs-3g
+cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
 ln -s $(which fdfind) /home/$username/.local/bin/fd
 

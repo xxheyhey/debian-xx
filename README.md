@@ -27,6 +27,8 @@ Reboot after the installation is complete.
 ### Manually do after (mainly for myself):
 Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
 
+Install NVIDIA drivers
+
 Check if there's a newer version of [R](https://cloud.r-project.org/src/base/R-4/) (currently installing R-4.3.2)
 
 Check [auto-cpufreq troubleshooting](https://github.com/AdnanHodzic/auto-cpufreq#troubleshooting) if experiencing problems with CPU performance
