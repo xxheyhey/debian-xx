@@ -16,8 +16,6 @@ cat <<EOT >> .gitconfig
 	email = $email
 [core]
 	editor = $editor
-[pull]
-	rebase = false
 EOT
 mv .gitconfig /home/$username/
 

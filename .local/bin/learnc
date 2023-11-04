@@ -11,4 +11,4 @@
 
 evince ~/OneDrive/Documents/'k&r.pdf' &
 
-tmux-sessionizer ~/Documents/leren/C/k_and_r/
+tmux-sessionizer ~/Documents/leren/c/k_and_r/

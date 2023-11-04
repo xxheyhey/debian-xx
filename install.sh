@@ -16,8 +16,6 @@ cat <<EOT >> .gitconfig
 	email = $email
 [core]
 	editor = $editor
-[pull]
-	rebase = false
 EOT
 mv .gitconfig /home/$username/
 
@@ -82,6 +80,8 @@ wget -qO - https://download.opensuse.org/repositories/home:/npreining:/debian-ub
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-onedrive.gpg] https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/Debian_12/ ./" |  tee /etc/apt/sources.list.d/onedrive.list
 apt update
 apt install --no-install-recommends --no-install-suggests onedrive -y
+
+rm /etc/systemd/user/default.target.wants/onedrive.service
 
 cd /home/$username/suckless/dmenu/ && make clean install
 cd /home/$username/suckless/dwm/ && make clean install
