@@ -4,7 +4,7 @@ This is my debian installation setup.
 
 Look at install.sh to see what's going to be installed on your system.
 
-Make changes to the xrandr lines in the .xinitrc file for your own system see [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
+Make changes to the xrandr lines in the .xinitrc file for your own system. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
 
 ### To install:
 - On a real machine:
