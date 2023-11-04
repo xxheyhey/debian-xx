@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/vic/Pictures/berserk.jpg' 
+feh --no-fehbg --bg-scale '$HOME/wallpapers/berserk.jpg' 
