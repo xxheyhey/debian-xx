@@ -30,6 +30,7 @@ cp -R suckless/ /home/$username/
 cp -R Pictures/ /home/$username/
 cp -R .config/ /home/$username/
 cp -R .local/ /home/$username/
+cp -R personal/ /home/$username/
 
 ln -s $(which fdfind) /home/$username/.local/bin/fd
 
