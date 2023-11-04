@@ -19,8 +19,10 @@ cat <<EOT >> .gitconfig
 EOT
 mv .gitconfig /home/$username/
 
-mv auto-cpufreq.conf /etc/
+mkdir /lib/x86_64-linux-gnu/ntfs-3g
 
+cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
+cp auto-cpufreq.conf /etc/
 cp .bashrc /home/$username/.bashrc
 cp .profile /home/$username/.profile
 cp .tmux* /home/$username/
@@ -31,6 +33,7 @@ cp -R Pictures/ /home/$username/
 cp -R .config/ /home/$username/
 cp -R .local/ /home/$username/
 cp -R .unison/ /home/$username/
+
 
 mkdir /home/$username/personal
 mkdir /home/$username/Desktop
