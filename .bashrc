@@ -123,7 +123,7 @@ export PATH=$PATH:$HOME/ncbi-blast-2.14.1+/bin
 export PATH=$PATH:$HOME/iqtree-2.2.5-linux/bin
 
 # BLAST database
-export BLASTDB=$HOME/blastdb
+export BLASTDB=$HOME/personal/blastdb
 
 # aliases
 alias vim='nvim'
