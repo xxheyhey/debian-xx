@@ -33,6 +33,7 @@ cp -R .local/ /home/$username/
 mkdir /home/$username/personal
 mkdir /home/$username/Desktop
 mkdir /home/$username/Downloads
+mkdir /home/$username/Github
 
 ln -s $(which fdfind) /home/$username/.local/bin/fd
 
