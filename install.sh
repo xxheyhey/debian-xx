@@ -30,6 +30,7 @@ cp -R suckless/ /home/$username/
 cp -R Pictures/ /home/$username/
 cp -R .config/ /home/$username/
 cp -R .local/ /home/$username/
+cp -R .unison/ /home/$username/
 
 mkdir /home/$username/personal
 mkdir /home/$username/Desktop
@@ -44,7 +45,7 @@ apt dist-upgrade -y
 apt autoremove -y
 apt autoclean -y
 
-apt install thermald liblzma-dev rofi evince papirus-icon-theme xorg-dev gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
+apt install unison thermald liblzma-dev rofi evince papirus-icon-theme xorg-dev gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find pipx tmux -y
 
 pipx install cmake
 
