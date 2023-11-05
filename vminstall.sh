@@ -26,7 +26,7 @@ cp .tmux* /home/$username/
 cp .x* /home/$username/
 cp .fehbg /home/$username/
 cp -R suckless/ /home/$username/
-cp -R Pictures/ /home/$username/
+cp -R wallpapers/ /home/$username/
 cp -R .config/ /home/$username/
 cp -R .local/ /home/$username/
 
