@@ -20,8 +20,6 @@ cd debian-xx
 sudo ./vminstall.sh
 ```
 
-During the installation you will be prompted to install [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq). Follow the instructions that are given to install auto-cpufreq or not.
-
 Reboot after the installation is complete.
 
 ### Manually do after (mainly for myself):
