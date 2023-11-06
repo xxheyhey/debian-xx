@@ -18,9 +18,9 @@ cd debian-xx
 sudo ./vminstall.sh
 ```
 
-Start xorg with startx and configure your screen resolution. After that, make changes to the xrandr lines in the .xinitrc file in your home directory and uncomment all the lines. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
+Make changes to the xrandr lines in the .xinitrc file in your home directory and uncomment all the lines. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
 
-Reboot after the installation is complete.
+Reboot.
 
 ### Manually do after (mainly for myself):
 - Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
