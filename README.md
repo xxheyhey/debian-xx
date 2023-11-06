@@ -1,5 +1,5 @@
 # debian-xx
-### This is made for Debian Bookworm, Trixie or sid (Debian 12 is stable at time of writing)
+### This is made for Debian Bookworm, Trixie and sid (Debian 12 is stable at time of writing)
 This is my debian installation setup.
 
 Look at install.sh to see what's going to be installed on your system.
