@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/mounts/windows
+
+sudo mount /dev/nvme0n1p3 ~/mounts/windows

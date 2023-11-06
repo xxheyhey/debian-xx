@@ -1,0 +1,7 @@
+configuration {
+    modi: "drun";
+    font: "UbuntuMono-R 20";
+    icon-theme: "Papirus";
+}
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"

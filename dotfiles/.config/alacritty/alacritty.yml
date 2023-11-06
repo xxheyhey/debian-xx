@@ -1,0 +1,5 @@
+window:
+  opacity: 0
+
+import:
+ - ~/.config/alacritty/gnome_terminal.yaml

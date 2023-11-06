@@ -1,0 +1,18 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt full-upgrade -y
+pipx upgrade-all
+
+git clone https://github.com/neovim/neovim.git
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+cd .. && sudo rm -rf neovim
+
+auto-cpufreq --update
+
+sudo apt autoremove -y
+sudo apt clean
+sudo apt autoclean -y
