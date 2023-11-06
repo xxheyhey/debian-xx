@@ -2,6 +2,15 @@
 
 username=$(id -u -n 1000)
 
+# add bookworm repository if user is on trixie or sid
+echo Are you on Trixie or Sid? \(y/n\)
+read distro
+if [[ $distro == "y" ]]; then
+   echo "deb http://deb.debian.org/debian/ bookworm main" >> /etc/apt/sources.list
+   echo "deb-src http://deb.debian.org/debian/ bookworm main" >> /etc/apt/sources.list
+fi
+
+
 # make .gitconfig file
 echo .gitconfig setup:
 echo What is your name? \(With capital first letter\)
