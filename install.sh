@@ -17,19 +17,19 @@ cat <<EOT >> .gitconfig
 [core]
 	editor = $editor
 EOT
-mv .gitconfig /home/$username/
+mv dotfiles/.gitconfig /home/$username/
 
 
-cp .bashrc /home/$username/.bashrc
-cp .profile /home/$username/.profile
-cp .tmux* /home/$username/
-cp .x* /home/$username/
-cp .fehbg /home/$username/
+cp dotfiles/.bashrc /home/$username/.bashrc
+cp dotfiles/.profile /home/$username/.profile
+cp dotfiles/.tmux* /home/$username/
+cp dotfiles/.x* /home/$username/
+cp dotfiles/.fehbg /home/$username/
+cp -R dotfiles/.config/ /home/$username/
+cp -R dotfiles/.local/ /home/$username/
+cp -R dotfiles/.unison/ /home/$username/
 cp -R suckless/ /home/$username/
 cp -R wallpapers/ /home/$username/
-cp -R .config/ /home/$username/
-cp -R .local/ /home/$username/
-cp -R .unison/ /home/$username/
 
 mkdir /home/$username/personal
 mkdir /home/$username/Desktop
@@ -42,6 +42,7 @@ mkdir /lib/x86_64-linux-gnu/ntfs-3g
 cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
 chown -R $username:$username /home/$username
+
 
 apt update
 apt upgrade -y
