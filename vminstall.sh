@@ -36,6 +36,9 @@ mkdir /home/$username/Desktop
 mkdir /home/$username/Downloads
 mkdir /home/$username/Github
 
+chown -R $username:$username /home/$username
+
+
 apt update
 apt upgrade -y
 apt dist-upgrade -y
