@@ -27,8 +27,6 @@ Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
 
 Install NVIDIA drivers
 
-Check [auto-cpufreq troubleshooting](https://github.com/AdnanHodzic/auto-cpufreq#troubleshooting) if experiencing problems with CPU performance
-
 Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
 
 Install [iqtree2](https://github.com/iqtree/iqtree2/blob/master/README.md)
