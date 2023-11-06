@@ -23,10 +23,7 @@ sudo ./vminstall.sh
 Reboot after the installation is complete.
 
 ### Manually do after (mainly for myself):
-Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
-
-Install NVIDIA drivers
-
-Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
-
-Install [iqtree2](https://github.com/iqtree/iqtree2/blob/master/README.md)
+- Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
+- Install NVIDIA drivers
+- Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
+- Install [iqtree2](https://github.com/iqtree/iqtree2/blob/master/README.md)
