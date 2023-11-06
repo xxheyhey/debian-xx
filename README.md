@@ -2,7 +2,7 @@
 ### This is made for Debian Bookworm, Trixie and sid (Debian 12 is stable at time of writing)
 This is my debian installation setup.
 
-Look at install.sh to see what's going to be installed on your system.
+Look at install.sh (or vminstall.sh for virtual machines) to see what's going to be installed on your system.
 
 Make changes to the xrandr lines in the .xinitrc file for your own system. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
 
