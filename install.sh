@@ -17,7 +17,7 @@ cat <<EOT >> .gitconfig
 [core]
 	editor = $editor
 EOT
-mv dotfiles/.gitconfig /home/$username/
+mv .gitconfig /home/$username/
 
 
 cp dotfiles/.bashrc /home/$username/.bashrc
