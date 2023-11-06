@@ -41,6 +41,7 @@ mkdir /home/$username/mounts/wsl
 mkdir /lib/x86_64-linux-gnu/ntfs-3g
 cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
+chown -R $username:$username /home/$username
 
 apt update
 apt upgrade -y
