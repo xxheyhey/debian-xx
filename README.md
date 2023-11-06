@@ -1,5 +1,5 @@
 # debian-xx
-### This is made only for Debian 12 Bookworm
+### This is made for Debian Bookworm, Trixie or sid (Debian 12 is stable at time of writing)
 This is my debian installation setup.
 
 Look at install.sh to see what's going to be installed on your system.
@@ -26,8 +26,6 @@ Reboot after the installation is complete.
 Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
 
 Install NVIDIA drivers
-
-Check if there's a newer version of [R](https://cloud.r-project.org/src/base/R-4/) (currently installing R-4.3.2)
 
 Check [auto-cpufreq troubleshooting](https://github.com/AdnanHodzic/auto-cpufreq#troubleshooting) if experiencing problems with CPU performance
 

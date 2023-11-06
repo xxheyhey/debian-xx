@@ -48,7 +48,7 @@ apt dist-upgrade -y
 apt autoremove -y
 apt autoclean -y
 
-apt install xorg r-base r-base-dev unison ntfs-3g thermald liblzma-dev rofi evince papirus-icon-theme gfortran libbz2-dev libpcre2-dev libreadline-dev libcurl4-openssl-dev bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev xorg-dev git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
+apt install xorg r-base r-base-dev unison ntfs-3g thermald rofi evince papirus-icon-theme bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev git network-manager feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
 
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
 mv thorium.list /etc/apt/sources.list.d/
