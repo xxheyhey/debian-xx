@@ -50,7 +50,7 @@ apt autoremove -y
 apt autoclean -y
 
 # install packages
-apt install xorg r-base r-base-dev rofi evince papirus-icon-theme xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev git feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
+apt install xorg lightdm r-base r-base-dev rofi evince papirus-icon-theme xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev git feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
 
 # install Thorium browser
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
@@ -92,11 +92,16 @@ cd /home/$username/suckless/dwm/ && make clean install
 cd /home/$username/suckless/slstatus/ && make clean install
 cd /home/$username/suckless/st/ && make clean install
 
+
 # link "fd" to "fdfind" as suggested by fd-find devs
 ln -s $(which fdfind) /home/$username/.local/bin/fd
 
 # prevent onedrive to startup automatically
 rm /etc/systemd/user/default.target.wants/onedrive.service
+
+# Enable graphical login and change target from CLI to GUI
+systemctl enable lightdm
+systemctl set-default graphical.target
 
 
 # general cleaning
