@@ -1,5 +1,0 @@
-#!/bin/bash
-
-evince ~/personal/Documents/'k&r.pdf' &
-
-tmux-sessionizer ~/personal/lerencoderen/c/k_and_r/
