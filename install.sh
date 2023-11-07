@@ -51,9 +51,6 @@ mkdir -p /home/$username/.local/bin
 mkdir -p /home/$username/mounts/windows
 mkdir /home/$username/mounts/wsl
 
-# add ntfs-3g plugin to access OneDrive files in windows drive
-mkdir /lib/x86_64-linux-gnu/ntfs-3g
-cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
 # give user permission to home directory
 chown -R $username:$username /home/$username
@@ -120,6 +117,10 @@ ln -s $(which fdfind) /home/$username/.local/bin/fd
 
 # prevent onedrive to startup automatically
 rm /etc/systemd/user/default.target.wants/onedrive.service
+
+# add ntfs-3g plugin to access OneDrive files in windows drive
+mkdir /lib/x86_64-linux-gnu/ntfs-3g
+cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
 
 # general cleaning
