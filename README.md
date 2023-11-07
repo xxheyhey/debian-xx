@@ -18,7 +18,7 @@ cd debian-xx
 sudo ./vminstall.sh
 ```
 
-Make changes to the xrandr lines in the .xinitrc file in your home directory and uncomment all the lines. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
+Make changes to the xrandr lines in the .xinitrc file in your home directory as needed for your system. See [this](https://askubuntu.com/questions/377937/how-do-i-set-a-custom-resolution) for help.
 
 Reboot.
 

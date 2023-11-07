@@ -2,13 +2,13 @@
 #xrandr --addmode Virtual-1 2560x1440_165.00
 #xrandr --output Virtual-1 --mode 2560x1440_165.00
 #xrandr --dpi 144
-#xset r rate 240 30
+xset r rate 240 30
 
-#~/.fehbg &
-#picom &
-#slstatus &
-#nm-applet &
+~/.fehbg &
+picom &
+slstatus &
+nm-applet &
 
 
-#xbindkeys
-#exec dwm
+xbindkeys
+exec dwm
