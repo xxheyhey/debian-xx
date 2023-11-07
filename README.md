@@ -25,7 +25,7 @@ Make changes to the xrandr lines in the .xinitrc file in your home directory as 
 Reboot.
 
 ### Manually do after (mainly for myself):
-- Remove OneDrive auto-start service after running onedrive once with: ```rm /etc/systemd/user/default.target.wants/onedrive.service```
+- Remove OneDrive auto-start service after running ```onedrive --synchronize``` once with: ```rm /etc/systemd/user/default.target.wants/onedrive.service```
 - Bootstrap [packer.nvim](https://github.com/wbthomason/packer.nvim#bootstrapping)
 - Install NVIDIA drivers
 - Install [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
