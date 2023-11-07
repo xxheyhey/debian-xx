@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo mount /dev/nvme0n1p3 ~/mounts/windows
+sudo mount /dev/nvme1n1p3 ~/mounts/windows
 
 sudo dpkg-statoverride --add --update root root 0644 /boot/vmlinuz-$(uname -r)
 
