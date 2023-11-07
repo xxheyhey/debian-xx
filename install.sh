@@ -65,7 +65,7 @@ apt autoremove -y
 apt autoclean -y
 
 # install packages
-apt install xorg r-base r-base-dev unison ntfs-3g thermald rofi evince papirus-icon-theme bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
+apt install xorg r-base r-base-dev unison ntfs-3g guestmount thermald rofi evince papirus-icon-theme bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
 
 # install Thorium browser
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
