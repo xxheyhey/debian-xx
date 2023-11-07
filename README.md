@@ -11,6 +11,8 @@ git clone https://github.com/xxheyhey/debian-xx.git
 cd debian-xx
 sudo ./install.sh
 ```
+During the installation you will be prompted to install [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq). Follow the instructions that are given to install auto-cpufreq or not. The auto-starting daemon won't be installed, no matter your choice.
+
 - On a virtual machine:
 ```
 git clone https://github.com/xxheyhey/debian-xx.git
