@@ -38,7 +38,6 @@ cp dotfiles/.tmux* /home/$username/
 cp dotfiles/.x* /home/$username/
 cp dotfiles/.fehbg /home/$username/
 cp -R dotfiles/.config/ /home/$username/
-cp -R dotfiles/.local/ /home/$username/
 cp -R dotfiles/.unison/ /home/$username/
 cp -R suckless/ /home/$username/
 cp -R wallpapers/ /home/$username/
@@ -48,6 +47,7 @@ mkdir /home/$username/personal
 mkdir /home/$username/Desktop
 mkdir /home/$username/Downloads
 mkdir /home/$username/Github
+mkdir -p /home/$username/.local/bin
 
 # give user permission to home directory
 chown -R $username:$username /home/$username
