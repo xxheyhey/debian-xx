@@ -2,7 +2,9 @@
 
 username=$(id -u -n 1000)
 
-# add bookworm repository if user is on trixie or sid
+# Add bookworm repository if user is on trixie or sid. This has to be done for
+# the installation of picom, which currently does not have a package in the
+# Trixie or Sid repositories.
 echo Are you on Trixie or Sid? \(y/n\)
 read distro
 if [[ $distro == "y" ]]; then
