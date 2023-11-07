@@ -112,6 +112,7 @@ cd /home/$username/suckless/st/ && make clean install
 # install auto-cpufreq, but don't install the daemon
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
 cd auto-cpufreq && sudo ./auto-cpufreq-installer
+cd .. && rm -rf auto-cpufreq
 
 
 # link "fd" to "fdfind" as suggested by fd-find devs
