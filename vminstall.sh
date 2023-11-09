@@ -111,7 +111,7 @@ ln -s $(which fdfind) /home/$username/.local/bin/fd
 rm /etc/systemd/user/default.target.wants/onedrive.service
 
 # disable intel power save to stop white noise to appear when using headphone jack
-echo "0" | sudo tee /sys/module/snd_hda_intel/parameters/power_save
+cp audio_disable_powersave.conf /etc/modprobe.d/
 
 
 # general cleaning

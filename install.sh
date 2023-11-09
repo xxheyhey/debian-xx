@@ -123,7 +123,8 @@ mkdir /lib/x86_64-linux-gnu/ntfs-3g
 cp ntfs-plugin-9000001a.so /lib/x86_64-linux-gnu/ntfs-3g/
 
 # disable intel power save to stop white noise to appear when using headphone jack
-echo "0" | sudo tee /sys/module/snd_hda_intel/parameters/power_save
+cp audio_disable_powersave.conf /etc/modprobe.d/
+
 
 # general cleaning
 apt autoremove -y
