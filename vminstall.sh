@@ -110,6 +110,9 @@ ln -s $(which fdfind) /home/$username/.local/bin/fd
 # prevent onedrive to startup automatically
 rm /etc/systemd/user/default.target.wants/onedrive.service
 
+# disable intel power save to stop white noise to appear when using headphone jack
+echo "0" | sudo tee /sys/module/snd_hda_intel/parameters/power_save
+
 
 # general cleaning
 apt autoremove -y
