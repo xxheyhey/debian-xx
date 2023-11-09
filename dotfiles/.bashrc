@@ -134,6 +134,8 @@ alias fa="fd --type f --hidden --exclude .local/share --exclude .cache --exclude
 alias f="fd --type f --hidden --exclude .local/share --exclude .cache --exclude .local/pipx --exclude .git --exclude .npm --exclude .nvm | fzf --print0 | xargs -0 -o nvim"
 alias goto="source"
 alias prime-run="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
+alias night="gammastep -m randr -P -O"
+alias nightoff="gammastep -m randr -P -O 6500"
 
 # keybinds
 bind '"\C-f":"tmux-sessionizer\n"'
