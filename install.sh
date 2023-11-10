@@ -36,6 +36,7 @@ cp dotfiles/.bashrc /home/$username/.bashrc
 cp dotfiles/.profile /home/$username/.profile
 cp dotfiles/.tmux* /home/$username/
 cp dotfiles/.x* /home/$username/
+cp dotfiles/.X* /home/$username/
 cp dotfiles/.fehbg /home/$username/
 cp -R dotfiles/.config/ /home/$username/
 cp -R dotfiles/.unison/ /home/$username/
