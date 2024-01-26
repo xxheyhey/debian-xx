@@ -13,24 +13,6 @@ if [[ $distro == "y" ]]; then
 fi
 
 
-# make .gitconfig file
-echo .gitconfig setup:
-echo What is your name? \(With capital first letter\)
-read name
-echo What is your email?
-read email
-echo What is your preferred editor? \(nano, nvim, vim, etc.\)
-read editor
-cat <<EOT >> .gitconfig
-[user]
-	name = $name
-	email = $email
-[core]
-	editor = $editor
-EOT
-mv .gitconfig /home/$username/
-
-
 # copy files to home directory
 cp dotfiles/.bashrc /home/$username/.bashrc
 cp dotfiles/.profile /home/$username/.profile
@@ -65,7 +47,7 @@ apt autoremove -y
 apt autoclean -y
 
 # install packages
-apt install xorg brightnessctl gammastep r-base r-base-dev unison ntfs-3g guestmount thermald rofi evince papirus-icon-theme bluetooth blueman network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom alacritty libxft-dev libxinerama-dev feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
+apt install xorg brightnessctl gammastep r-base r-base-dev unison ntfs-3g guestmount rofi evince papirus-icon-theme network-manager network-manager-gnome xbindkeys vlc htop fonts-ubuntu alsa-utils thunar picom libxft-dev libxinerama-dev feh curl build-essential gettext unzip cmake xclip seqkit ninja-build python3 python3-dev python3-pip fzf fd-find tmux -y
 
 # install Thorium browser
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
