@@ -94,8 +94,8 @@ gnupg-l10n
 gnupg-utils
 gnupg
 gobject-introspection
-golang
-google-chrome-stable
+#golang
+#google-chrome-stable
 gsettings-desktop-schemas
 guestmount
 gzip
@@ -119,7 +119,7 @@ neofetch
 network-manager-gnome
 network-manager
 ninja-build
-nodejs
+#nodejs
 notification-daemon
 ntfs-3g
 numlockx
@@ -150,7 +150,7 @@ readline-common
 rfkill
 ripgrep
 rofi
-rstudio
+#rstudio
 rsync
 screenkey
 seqkit
