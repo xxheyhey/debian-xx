@@ -1,4 +1,7 @@
 # debian-xx
+
+### These are old dotfiles, I don't use them anymore.
+
 ### This is made for Debian Bookworm, Trixie and Sid (Debian 12 is stable at time of writing)
 This is my debian installation setup.
 
